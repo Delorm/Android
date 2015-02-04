@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Champlain Compsci</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dec">DEC</string>
+    <string name="title_activity_preuniversity">Pre-University Science</string>
+    <string name="title_activity_option">More Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="DecStringTitle">
+        <item >Why choose this DEC over another?</item>
+        <item >Skills and tools offered</item>
+        <item >The best work internship in six semesters</item>
+        <item >Curriculum Description</item>
+        <item >What is unique about our program?</item>
+        <item >High placement of jobs</item>
+    </string-array>
+    <string-array name="UniStringTitle">
+        <item >Students love for compsci</item>
+        <item >University prep to go into enginerring</item>
+        <item >A great option to work in the IT field</item>
+        <item >What is unique to the program?</item>
+        <item >Curriculum Description</item>
+    </string-array>
+    <string-array name="DecString">
+        <item />
+    </string-array>
+    <string name="why_choose">Why choose this DEC over another?</string>
+    <string name="skills_and_tools">Skills and tools offered</string>
+    <string name="best_work">The best work internship in six semesters</string>
+    <string name="curriculum_description">Curriculum Description</string>
+    <string name="unique_program">what is unique about our program?</string>
+    <string name="high_placement">High placement of jobs</string>
+    <string name="blahblah">blahblahblah</string>
+    <string name="love_compsci">Students love for compsci</string>
+    <string name="university_prep">University prep to go into engineering</string>
+    <string name="great_option">A great option to work in the IT field</string>
+    <string name="unique">What is unique to the program?</string>
+
+</resources>
