@@ -5,6 +5,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="large">32dp</dimen>
     <dimen name="xlarge">64dp</dimen>
-    <dimen name="big">24</dimen>
 
 </resources>
