@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -24,25 +25,31 @@
         
          <activity
             android:name=".splash"
-            android:label="@string/title_activity_dec" >
+            android:label="@string/title_activity_dec"
+            android:screenOrientation="portrait" >
         </activity>
         
         <activity
             android:name=".Dec"
-            android:label="@string/title_activity_dec" >
+            android:label="@string/title_activity_dec"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Preuniversity"
-            android:label="@string/title_activity_preuniversity" >
+            android:label="@string/title_activity_preuniversity"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Option"
-            android:label="@string/title_activity_option" >
+            android:label="@string/title_activity_option"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" >
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
         </activity>
+        
     </application>
 
 </manifest>

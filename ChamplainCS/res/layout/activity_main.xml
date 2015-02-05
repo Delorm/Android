@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/large"
             android:layout_marginTop="@dimen/large"
+            android:background="@null"
             android:layout_weight="1"
             android:onClick="goDEC"
             android:src="@drawable/compsci" />

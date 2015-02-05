@@ -14,27 +14,7 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
 	
-	
-	
-	
-	
-	public class Splash extends Activity {
-	    @Override
-	    public void onCreate(Bundle savedInstanceState) {
-	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.splash);
-	        
-	        
 
-	        int secondsDelayed = 10;
-	        new Handler().postDelayed(new Runnable() {
-	                public void run() {
-	                        startActivity(new Intent(Splash.this, MainActivity.class));
-	                        finish();
-	                }
-	        }, secondsDelayed * 1000);
-	    }
-	}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
