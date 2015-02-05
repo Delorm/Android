@@ -48,21 +48,22 @@ public class Dec extends Activity {
              {
             	
             	i.putExtra("optionTitle", (getResources().getString(R.string.why_choose)));
-            	i.putExtra("optionText", (getResources().getString(R.string.why_choose_ans))); //Missing Correct Text
+            	i.putExtra("optionText", (getResources().getString(R.string.why_choose_ans)));
+            	
             	//Missing the Image
             	startActivity(i);
              } 
              else if (strText.equalsIgnoreCase(getResources().getString(R.string.skills_and_tools))) 
              {
              	i.putExtra("optionTitle", (getResources().getString(R.string.skills_and_tools)));
-             	i.putExtra("optionText", (getResources().getString(R.string.skills_and_tools_ans))); //Missing Correct Text
+             	i.putExtra("optionText", (getResources().getString(R.string.skills_and_tools_ans)));
             	//Missing the Image
             	startActivity(i);
              }
              else if (strText.equalsIgnoreCase(getResources().getString(R.string.best_work))) 
              {
              	i.putExtra("optionTitle", (getResources().getString(R.string.best_work)));
-             	i.putExtra("optionText", (getResources().getString(R.string.best_work_ans))); //Missing Correct Text
+             	i.putExtra("optionText", (getResources().getString(R.string.best_work_ans)));
             	//Missing the Image
             	startActivity(i);
              } 
@@ -76,14 +77,14 @@ public class Dec extends Activity {
              else if (strText.equalsIgnoreCase(getResources().getString(R.string.unique_program))) 
              {
              	i.putExtra("optionTitle", (getResources().getString(R.string.unique_program)));
-             	i.putExtra("optionText", (getResources().getString(R.string.unique_program_ans))); //Missing Correct Text
+             	i.putExtra("optionText", (getResources().getString(R.string.unique_program_ans))); 
             	//Missing the Image
             	startActivity(i);
              } 
              else if (strText.equalsIgnoreCase(getResources().getString(R.string.high_placement))) 
              {
              	i.putExtra("optionTitle", (getResources().getString(R.string.high_placement)));
-             	i.putExtra("optionText", (getResources().getString(R.string.high_placement_ans))); //Missing Correct Text
+             	i.putExtra("optionText", (getResources().getString(R.string.high_placement_ans))); 
             	//Missing the Image
             	startActivity(i);
              }
