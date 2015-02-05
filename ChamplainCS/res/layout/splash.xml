@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/whitelights" >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_gravity="left"
         android:text="Champlain Computer Science"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@drawable/back" />
 
 </GridLayout>
