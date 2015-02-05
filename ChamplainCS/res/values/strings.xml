@@ -51,9 +51,10 @@ and Mainframe application programming
     <string name="best_work_ans">During the sixth semester, students will be placed into different companies for their externship.  The externship is going to be 12 weeks long. This experience is going to allow the student to apply his knowledge in a real workspace.
 At the end of the externship, students may have the possibility to stay in the same company as a worker. 
     </string>
-    <string name="unique_program_ans">??</string>
+    <string name="unique_program_ans">ll</string>
     <string name="high_placement_ans">A career as a Computer Programmer Analyst can provide you with exciting and rewarding work in areas such as: computer programming, web development, systems development, data modeling, and database administration.</string>
-
+    <string name="why_choose_ans_math">The Computer Science and Mathematics program will allow graduates to pursue studies in the exciting and ever growing field of Computer Sciences. As a pre-university program, students are also able to enter university programs in Mathematics, Actuarial Sciences, Computer Gaming, Information Systems as well as traditional fields of study in both sciences and engineering.</string>
+    <string name="why_choose_math">Why choose this program over another?</string>
     
-    
+   
 </resources>
