@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_marginBottom="@dimen/large"
         android:scaleType="centerCrop"
-        android:src="@drawable/banner" />
+        android:src="@drawable/bannerbigbigger" />
     
     <LinearLayout
         android:layout_gravity="fill_horizontal"
