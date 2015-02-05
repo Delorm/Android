@@ -52,34 +52,34 @@
             android:id="@+id/facebookButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/large"
+            android:layout_marginRight="@dimen/large"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@null"
-            android:src="@drawable/facebook"
-            android:onClick="goFacebook" />
+            android:onClick="goFacebook"
+            android:src="@drawable/facebook" />
 
         <ImageButton
             android:id="@+id/twitterButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/large"
+            android:layout_marginRight="@dimen/large"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@null"
-            android:src="@drawable/twitter" 
-            android:onClick="goTwitter"/>
+            android:onClick="goTwitter"
+            android:src="@drawable/twitter" />
 
         <ImageButton
             android:id="@+id/instagramButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/large"
+            android:layout_marginRight="@dimen/large"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@null"
-            android:src="@drawable/instagram" 
-            android:onClick="goInstagram"/>
+            android:onClick="goInstagram"
+            android:src="@drawable/instagram" />
 
     </LinearLayout>
 
