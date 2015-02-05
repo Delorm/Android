@@ -40,11 +40,11 @@ public class Preuniversity extends Activity {
             TextView textView = (TextView) itemClicked;
             String strText = textView.getText().toString();
             Intent i = new Intent(getApplicationContext(),Option.class);
-            if (strText.equalsIgnoreCase(getResources().getString(R.string.blahblah))) 
+            if (strText.equalsIgnoreCase(getResources().getString(R.string.why_choose_math))) 
             {
            	
-           	i.putExtra("optionTitle", (getResources().getString(R.string.blahblah)));
-           	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+           	i.putExtra("optionTitle", (getResources().getString(R.string.why_choose_math)));
+           	i.putExtra("optionText", (getResources().getString(R.string.why_choose_ans_math))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
             } 
