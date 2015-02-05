@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:text="Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here Text here"
-            android:textColor="@color/White" />
+            android:textColor="@color/White"
+            android:textSize="@dimen/big" />
 
         <ImageView
             android:id="@+id/imageView1"
