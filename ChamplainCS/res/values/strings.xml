@@ -36,5 +36,24 @@
     <string name="university_prep">University prep to go into engineering</string>
     <string name="great_option">A great option to work in the IT field</string>
     <string name="unique">What is unique to the program?</string>
+    <string name="why_choose_ans">The Legacy to Mobile (L2M) program provides a unique experience in developing and supporting computer systems to satisfy business requirements. Graduates are well trained for a career as a programmer analyst or as technical support. Students will also benefit from excellent on-site training at companies, which may lead to full-time jobs.</string>
+    <string name="skills_and_tools_ans"> The skills and tools ultilized consist of: Problem solving 
+,Software design 
+,Operating systems 
+,Computer programming 
+,Client/server - multi-tiered architecture 
+,Web development 
+,Object-oriented programming 
+,Mobile device programming 
+,Database design and management 
+and Mainframe application programming
+        </string>
+    <string name="best_work_ans">During the sixth semester, students will be placed into different companies for their externship.  The externship is going to be 12 weeks long. This experience is going to allow the student to apply his knowledge in a real workspace.
+At the end of the externship, students may have the possibility to stay in the same company as a worker. 
+    </string>
+    <string name="unique_program_ans">??</string>
+    <string name="high_placement_ans">A career as a Computer Programmer Analyst can provide you with exciting and rewarding work in areas such as: computer programming, web development, systems development, data modeling, and database administration.</string>
 
+    
+    
 </resources>
