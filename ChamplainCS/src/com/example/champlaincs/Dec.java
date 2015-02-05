@@ -27,10 +27,9 @@ public class Dec extends Activity {
 	ListView listView1 = (ListView) findViewById(R.id.listView1);
 	titles=getResources().getStringArray(R.array.DecStringTitle);
 	
-	ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-             android.R.layout.simple_list_item_1, titles);
+	ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, titles);
  
-	listView1.setAdapter(adapter);
+	listView1.setAdapter(adapter); 
 		
 	
 	 listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() 

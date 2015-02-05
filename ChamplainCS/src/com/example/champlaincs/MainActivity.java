@@ -23,8 +23,10 @@ public class MainActivity extends Activity {
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.splash);
+	        
+	        
 
-	        int secondsDelayed = 1;
+	        int secondsDelayed = 10;
 	        new Handler().postDelayed(new Runnable() {
 	                public void run() {
 	                        startActivity(new Intent(Splash.this, MainActivity.class));

@@ -5,7 +5,7 @@
     android:background="@drawable/whitelights" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/listViewElement"
         android:layout_gravity="left"
         android:text="Champlain Computer Science"
         android:textAppearance="?android:attr/textAppearanceLarge"
