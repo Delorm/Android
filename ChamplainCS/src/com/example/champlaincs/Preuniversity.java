@@ -2,14 +2,15 @@ package com.example.champlaincs;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.MediaController;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 public class Preuniversity extends Activity {
 
@@ -19,6 +20,18 @@ public class Preuniversity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_preuniversity);
+		
+		
+		VideoView vid = (VideoView)findViewById(R.id.videoView1);
+		String uriPath = "android.resource://" + getPackageName() + "/" + 'a'; //+ R.raw.finalproject;
+	
+		Uri uri=Uri.parse(uriPath);
+		vid.setVideoURI(uri);
+		vid.setMediaController(new MediaController(this));
+		vid.start();
+		vid.requestFocus();
+		
+		
 		
 	ListView listView1 = (ListView) findViewById(R.id.listView1);
 	titles=getResources().getStringArray(R.array.UniStringTitle);

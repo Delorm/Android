@@ -28,6 +28,7 @@
             android:layout_marginTop="@dimen/xlarge"
             android:layout_weight="1"
             android:background="@null"
+            android:focusable="true"
             android:onClick="goDEC"
             android:src="@drawable/compsci" />
 
@@ -40,6 +41,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:onClick="goUni"
+            android:focusable="true"
             android:src="@drawable/compscimath" />
 
     </LinearLayout>
