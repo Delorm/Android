@@ -27,14 +27,13 @@ public class Dec extends Activity {
 		setContentView(R.layout.activity_dec);
 
 		VideoView vid = (VideoView)findViewById(R.id.videoView1);
-		String uriPath = "android.resource://" + getPackageName() + "/" + 'a'; // R.raw.maformation;
-	
-		Uri uri=Uri.parse(uriPath);
+		MediaController mediaController = new MediaController(this);
+		mediaController.setAnchorView(vid);
+		Uri uri=Uri.parse("https://www.youtube.com/watch?v=fVDOB9mby_w");
+		vid.setMediaController(mediaController);
 		vid.setVideoURI(uri);
-		vid.setMediaController(new MediaController(this));
-		vid.start();
 		vid.requestFocus();
-	
+		vid.start();
 		
 		
 		
