@@ -41,7 +41,7 @@
         android:layout_gravity="fill_horizontal"
         android:orientation="vertical" >
 
-        <com.google.android.youtube.player.YouTubePlayerView
+        <VideoView
             android:id="@+id/videoView1"
             android:layout_width="fill_parent"
             android:layout_height="310dp"
