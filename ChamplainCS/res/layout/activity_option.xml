@@ -24,7 +24,8 @@
             android:text="Large Text"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/White"
-            android:textSize="@dimen/large" />
+            android:textSize="@dimen/large"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/contentText"
