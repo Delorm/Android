@@ -10,9 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.VideoView;
 
 
 
@@ -25,16 +23,6 @@ public class Dec extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dec);
-
-		VideoView vid = (VideoView)findViewById(R.id.videoView1);
-		MediaController mediaController = new MediaController(this);
-		mediaController.setAnchorView(vid);
-		Uri uri=Uri.parse("https://www.youtube.com/watch?v=fVDOB9mby_w");
-		vid.setMediaController(mediaController);
-		vid.setVideoURI(uri);
-		vid.requestFocus();
-		vid.start();
-		
 		
 		
 	ListView listView1 = (ListView) findViewById(R.id.listView1);
@@ -83,7 +71,7 @@ public class Dec extends Activity {
              else if (strText.equalsIgnoreCase(getResources().getString(R.string.curriculum_description))) 
              {
              	i.putExtra("optionTitle", (getResources().getString(R.string.curriculum_description)));
-             	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+             	i.putExtra("optionText", (getResources().getString(R.string.curriculum_description_ans))); //Missing Correct Text
             	//Missing the Image
             	startActivity(i);
              } 
@@ -107,7 +95,10 @@ public class Dec extends Activity {
 
  }
 	
-	
+	public void goVideo(View view){
+    	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=wsmzqSJK7Nc"));
+    	   startActivity(myIntent);
+    }
 	
 	
 

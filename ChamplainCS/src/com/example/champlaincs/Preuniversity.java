@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.VideoView;
 
 public class Preuniversity extends Activity {
 
@@ -21,18 +19,7 @@ public class Preuniversity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_preuniversity);
 		
-		
-		VideoView vid = (VideoView)findViewById(R.id.videoView1);
-		MediaController mediaController = new MediaController(this);
-		mediaController.setAnchorView(vid);
-		Uri uri=Uri.parse("https://www.youtube.com/watch?v=fVDOB9mby_w");
-		vid.setMediaController(mediaController);
-		vid.setVideoURI(uri);
-		vid.requestFocus();
-		vid.start();
-		
-		
-		
+	
 	ListView listView1 = (ListView) findViewById(R.id.listView1);
 	titles=getResources().getStringArray(R.array.UniStringTitle);
 	
@@ -57,35 +44,42 @@ public class Preuniversity extends Activity {
             {
            	
            	i.putExtra("optionTitle", (getResources().getString(R.string.love_compsci)));
-           	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+           	i.putExtra("optionText", (getResources().getString(R.string.love_compsci_ans))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
             } 
-            else if (strText.equalsIgnoreCase(getResources().getString(R.string.university_prep))) 
+            else if (strText.equalsIgnoreCase(getResources().getString(R.string.why_choose))) 
             {
-            	i.putExtra("optionTitle", (getResources().getString(R.string.university_prep)));
-            	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+            	i.putExtra("optionTitle", (getResources().getString(R.string.why_choose)));
+            	i.putExtra("optionText", (getResources().getString(R.string.why_choose_ans_math))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
             }
-            else if (strText.equalsIgnoreCase(getResources().getString(R.string.great_option))) 
+            else if (strText.equalsIgnoreCase(getResources().getString(R.string.skills_and_tools))) 
             {
-            	i.putExtra("optionTitle", (getResources().getString(R.string.great_option)));
-            	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+            	i.putExtra("optionTitle", (getResources().getString(R.string.skills_and_tools)));
+            	i.putExtra("optionText", (getResources().getString(R.string.skills_and_tools_ans_math))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
-            } 
+            }
+            else if (strText.equalsIgnoreCase(getResources().getString(R.string.university_prep))) 
+            {
+            	i.putExtra("optionTitle", (getResources().getString(R.string.university_prep)));
+            	i.putExtra("optionText", (getResources().getString(R.string.university_prep_ans))); //Missing Correct Text
+           	//Missing the Image
+           	startActivity(i);
+            }
             else if (strText.equalsIgnoreCase(getResources().getString(R.string.unique))) 
             {
             	i.putExtra("optionTitle", (getResources().getString(R.string.unique)));
-            	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+            	i.putExtra("optionText", (getResources().getString(R.string.unique_program_ans_math))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
             } 
             else if (strText.equalsIgnoreCase(getResources().getString(R.string.curriculum_description))) 
             {
             	i.putExtra("optionTitle", (getResources().getString(R.string.curriculum_description)));
-            	i.putExtra("optionText", (getResources().getString(R.string.blahblah))); //Missing Correct Text
+            	i.putExtra("optionText", (getResources().getString(R.string.curriculum_description_ans_math))); //Missing Correct Text
            	//Missing the Image
            	startActivity(i);
             } 
@@ -94,5 +88,9 @@ public class Preuniversity extends Activity {
 	
 	}
 	
+	public void goVideo(View view){
+    	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=t-bqN4wZ5sY"));
+    	   startActivity(myIntent);
+    }
 
 }

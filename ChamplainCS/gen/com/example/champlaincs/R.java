@@ -43,12 +43,13 @@ public final class R {
         public static final int compsci=0x7f020004;
         public static final int compscimath=0x7f020005;
         public static final int facebook=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int icon=0x7f020008;
-        public static final int instagram=0x7f020009;
-        public static final int pressed=0x7f02000a;
-        public static final int twitter=0x7f02000b;
-        public static final int whitelights=0x7f02000c;
+        public static final int finalprojectvid=0x7f020007;
+        public static final int formationvid=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int icon=0x7f02000a;
+        public static final int instagram=0x7f02000b;
+        public static final int twitter=0x7f02000c;
+        public static final int whitelights=0x7f02000d;
     }
     public static final class id {
         public static final int GridLayout=0x7f0b0004;
@@ -58,13 +59,13 @@ public final class R {
         public static final int contentText=0x7f0b000b;
         public static final int decButton=0x7f0b0005;
         public static final int facebookButton=0x7f0b0007;
+        public static final int imageButton1=0x7f0b0003;
         public static final int imageView1=0x7f0b0001;
         public static final int instagramButton=0x7f0b0009;
         public static final int listView1=0x7f0b0002;
         public static final int listViewElement=0x7f0b000c;
         public static final int title=0x7f0b000a;
         public static final int twitterButton=0x7f0b0008;
-        public static final int videoView1=0x7f0b0003;
     }
     public static final class layout {
         public static final int activity_dec=0x7f030000;
@@ -85,51 +86,55 @@ public final class R {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int best_work=0x7f060008;
-        public static final int best_work_ans=0x7f060013;
+        public static final int best_work_ans=0x7f060012;
         public static final int blahblah=0x7f06000c;
         public static final int curriculum_description=0x7f060009;
-        public static final int error_player=0x7f060019;
-        public static final int great_option=0x7f06000f;
+        public static final int curriculum_description_ans=0x7f060013;
+        public static final int curriculum_description_ans_math=0x7f060014;
+        public static final int error_player=0x7f06001d;
         public static final int hello_world=0x7f060005;
         public static final int high_placement=0x7f06000b;
-        public static final int high_placement_ans=0x7f060015;
+        public static final int high_placement_ans=0x7f060016;
         public static final int love_compsci=0x7f06000d;
-        public static final int pref_default_display_name=0x7f06001f;
-        public static final int pref_description_social_recommendations=0x7f06001d;
+        public static final int love_compsci_ans=0x7f060019;
+        public static final int pref_default_display_name=0x7f060023;
+        public static final int pref_description_social_recommendations=0x7f060021;
         /**  Example settings for Data & Sync 
          */
-        public static final int pref_header_data_sync=0x7f060021;
+        public static final int pref_header_data_sync=0x7f060025;
         /**  Strings related to Settings 
  Example General settings 
          */
-        public static final int pref_header_general=0x7f06001b;
+        public static final int pref_header_general=0x7f06001f;
         /**  Example settings for Notifications 
          */
-        public static final int pref_header_notifications=0x7f060024;
-        public static final int pref_ringtone_silent=0x7f060027;
-        public static final int pref_title_add_friends_to_messages=0x7f060020;
-        public static final int pref_title_display_name=0x7f06001e;
-        public static final int pref_title_new_message_notifications=0x7f060025;
-        public static final int pref_title_ringtone=0x7f060026;
-        public static final int pref_title_social_recommendations=0x7f06001c;
-        public static final int pref_title_sync_frequency=0x7f060022;
-        public static final int pref_title_system_sync_settings=0x7f060023;
-        public static final int pref_title_vibrate=0x7f060028;
+        public static final int pref_header_notifications=0x7f060028;
+        public static final int pref_ringtone_silent=0x7f06002b;
+        public static final int pref_title_add_friends_to_messages=0x7f060024;
+        public static final int pref_title_display_name=0x7f060022;
+        public static final int pref_title_new_message_notifications=0x7f060029;
+        public static final int pref_title_ringtone=0x7f06002a;
+        public static final int pref_title_social_recommendations=0x7f060020;
+        public static final int pref_title_sync_frequency=0x7f060026;
+        public static final int pref_title_system_sync_settings=0x7f060027;
+        public static final int pref_title_vibrate=0x7f06002c;
         public static final int skills_and_tools=0x7f060007;
-        public static final int skills_and_tools_ans=0x7f060012;
-        public static final int skills_and_tools_ans_math=0x7f060018;
+        public static final int skills_and_tools_ans=0x7f060011;
+        public static final int skills_and_tools_ans_math=0x7f06001a;
         public static final int title_activity_dec=0x7f060002;
         public static final int title_activity_option=0x7f060004;
         public static final int title_activity_preuniversity=0x7f060003;
-        public static final int title_activity_settings=0x7f06001a;
-        public static final int unique=0x7f060010;
+        public static final int title_activity_settings=0x7f06001e;
+        public static final int unique=0x7f06000f;
         public static final int unique_program=0x7f06000a;
-        public static final int unique_program_ans=0x7f060014;
+        public static final int unique_program_ans=0x7f060015;
+        public static final int unique_program_ans_math=0x7f06001c;
         public static final int university_prep=0x7f06000e;
+        public static final int university_prep_ans=0x7f06001b;
         public static final int why_choose=0x7f060006;
-        public static final int why_choose_ans=0x7f060011;
-        public static final int why_choose_ans_math=0x7f060016;
-        public static final int why_choose_math=0x7f060017;
+        public static final int why_choose_ans=0x7f060010;
+        public static final int why_choose_ans_math=0x7f060017;
+        public static final int why_choose_math=0x7f060018;
     }
     public static final class style {
         /** 
