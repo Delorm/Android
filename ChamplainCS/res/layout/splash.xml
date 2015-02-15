@@ -2,13 +2,11 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whitelights" >
+    android:background="@drawable/splashscreen" >
 
     <TextView
         android:id="@+id/listViewElement"
-        android:layout_gravity="left"
-        android:text="Champlain Computer Science"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@drawable/back" />
+        android:textColor="@android:color/black" />
 
 </GridLayout>

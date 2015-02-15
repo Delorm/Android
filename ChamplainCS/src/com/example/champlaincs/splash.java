@@ -14,7 +14,29 @@ public class splash extends Activity {
 		super.onCreate(savedInstaceState);
 		setContentView(R.layout.splash);
 		
-		int secondsDelayed=10000;
+		Thread logoTimer = new Thread(){
+			
+			public void run(){
+				try{
+					sleep(2000);
+					Intent mainActivityIntent = new Intent("com.example.champlaincs.ACTIVITY_MAIN");
+					startActivity(mainActivityIntent);
+				} 
+				
+				catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				finally{
+					finish();
+				}
+			}
+		};
+		
+		logoTimer.start();
+		
+/*		int secondsDelayed=10000;
 		new Handler().postDelayed(new Runnable(){
 			
 			public void run(){
@@ -23,7 +45,7 @@ public class splash extends Activity {
 			}
 			
 			
-		}, secondsDelayed);
+		}, secondsDelayed);*/
 		
 	}
 	

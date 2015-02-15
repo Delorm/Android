@@ -13,8 +13,9 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
         <activity
-            android:name=".MainActivity"
+            android:name=".splash"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -23,10 +24,14 @@
             </intent-filter>
         </activity>
         
-         <activity
-            android:name=".splash"
-            android:label="@string/title_activity_dec"
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.champlaincs.ACTIVITY_MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         
         <activity
