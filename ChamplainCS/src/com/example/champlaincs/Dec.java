@@ -100,6 +100,10 @@ public class Dec extends Activity {
     	   startActivity(myIntent);
     }
 	
+	public void goPdf(View view){
+    	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.champlainonline.com/champlainweb/wp-content/uploads/2013/06/computer-science-legacy-to-mobile.pdf"));
+    	   startActivity(myIntent);
+    }
 	
 
 	@Override

@@ -42,31 +42,35 @@ public final class R {
         public static final int champlain=0x7f020003;
         public static final int compsci=0x7f020004;
         public static final int compscimath=0x7f020005;
-        public static final int facebook=0x7f020006;
-        public static final int finalprojectvid=0x7f020007;
-        public static final int formationvid=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int icon=0x7f02000a;
-        public static final int instagram=0x7f02000b;
-        public static final int splashscreen=0x7f02000c;
-        public static final int twitter=0x7f02000d;
+        public static final int compscimathpdf=0x7f020006;
+        public static final int compscipdf=0x7f020007;
+        public static final int facebook=0x7f020008;
+        public static final int finalprojectvid=0x7f020009;
+        public static final int formationvid=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int icon=0x7f02000c;
+        public static final int instagram=0x7f02000d;
+        public static final int play=0x7f02000e;
+        public static final int splashscreen=0x7f02000f;
+        public static final int twitter=0x7f020010;
     }
     public static final class id {
-        public static final int GridLayout=0x7f0b0004;
+        public static final int GridLayout=0x7f0b0005;
         public static final int GridLayout1=0x7f0b0000;
-        public static final int UniButton=0x7f0b0006;
-        public static final int action_settings=0x7f0b000e;
-        public static final int contentText=0x7f0b000c;
-        public static final int decButton=0x7f0b0005;
-        public static final int facebookButton=0x7f0b0007;
+        public static final int UniButton=0x7f0b0007;
+        public static final int action_settings=0x7f0b000f;
+        public static final int contentText=0x7f0b000d;
+        public static final int decButton=0x7f0b0006;
+        public static final int facebookButton=0x7f0b0008;
         public static final int imageButton1=0x7f0b0003;
+        public static final int imageButton2=0x7f0b0004;
         public static final int imageView1=0x7f0b0001;
-        public static final int imageView2=0x7f0b000a;
-        public static final int instagramButton=0x7f0b0009;
+        public static final int imageView2=0x7f0b000b;
+        public static final int instagramButton=0x7f0b000a;
         public static final int listView1=0x7f0b0002;
-        public static final int listViewElement=0x7f0b000d;
-        public static final int title=0x7f0b000b;
-        public static final int twitterButton=0x7f0b0008;
+        public static final int listViewElement=0x7f0b000e;
+        public static final int title=0x7f0b000c;
+        public static final int twitterButton=0x7f0b0009;
     }
     public static final class layout {
         public static final int activity_dec=0x7f030000;

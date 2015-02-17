@@ -93,4 +93,11 @@ public class Preuniversity extends Activity {
     	   startActivity(myIntent);
     }
 
+	public void goPdf(View view){
+    	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.champlainonline.com/champlainweb/wp-content/uploads/2013/09/computer-science-mathematics.pdf"));
+    	   startActivity(myIntent);
+    }
+	
+	
+	
 }
