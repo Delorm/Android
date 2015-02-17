@@ -13,7 +13,7 @@ public class splash extends Activity {
 		
 		super.onCreate(savedInstaceState);
 		setContentView(R.layout.splash);
-		
+
 		Thread logoTimer = new Thread(){
 			
 			public void run(){

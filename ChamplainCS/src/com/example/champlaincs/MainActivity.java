@@ -63,6 +63,11 @@ public class MainActivity extends Activity {
     	   startActivity(myIntent);
     }
     
+    public void goInfo(View view){
+    	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.champlainonline.com/champlainweb/request-more-information/"));
+    	   startActivity(myIntent);
+    }
+    
     
     
     

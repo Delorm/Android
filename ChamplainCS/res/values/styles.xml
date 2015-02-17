@@ -17,5 +17,8 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <color name="White">#FFFFFF</color>
-
+<style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+</style> 
 </resources>

@@ -85,6 +85,17 @@
             android:onClick="goInstagram"
             android:src="@drawable/instagram" />
 
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large"
+            android:layout_marginRight="@dimen/large"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@null"
+            android:onClick="goInfo"
+            android:src="@drawable/info" />
+
     </LinearLayout>
 
 

@@ -17,7 +17,9 @@
         <activity
             android:name=".splash"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -27,6 +29,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
+            android:theme="@style/NoActionBar"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="com.example.champlaincs.ACTIVITY_MAIN" />
@@ -37,20 +40,24 @@
         <activity
             android:name=".Dec"
             android:label="@string/title_activity_dec"
+            android:theme="@style/NoActionBar"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Preuniversity"
+            android:theme="@style/NoActionBar"
             android:label="@string/title_activity_preuniversity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Option"
             android:label="@string/title_activity_option"
+            android:theme="@style/NoActionBar"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".SettingsActivity"
+            android:theme="@style/NoActionBar"
             android:label="@string/title_activity_settings"
             android:screenOrientation="portrait" >
         </activity>

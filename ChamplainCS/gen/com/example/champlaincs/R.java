@@ -49,10 +49,11 @@ public final class R {
         public static final int formationvid=0x7f02000a;
         public static final int ic_launcher=0x7f02000b;
         public static final int icon=0x7f02000c;
-        public static final int instagram=0x7f02000d;
-        public static final int play=0x7f02000e;
-        public static final int splashscreen=0x7f02000f;
-        public static final int twitter=0x7f020010;
+        public static final int info=0x7f02000d;
+        public static final int instagram=0x7f02000e;
+        public static final int play=0x7f02000f;
+        public static final int splashscreen=0x7f020010;
+        public static final int twitter=0x7f020011;
     }
     public static final class id {
         public static final int GridLayout=0x7f0b0005;
@@ -167,6 +168,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
+        public static final int NoActionBar=0x7f080002;
     }
     public static final class xml {
         public static final int pref_data_sync=0x7f040000;
