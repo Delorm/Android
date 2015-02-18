@@ -41,19 +41,22 @@ public final class R {
         public static final int bannerbigbigger=0x7f020002;
         public static final int champlain=0x7f020003;
         public static final int compsci=0x7f020004;
-        public static final int compscimath=0x7f020005;
-        public static final int compscimathpdf=0x7f020006;
-        public static final int compscipdf=0x7f020007;
-        public static final int facebook=0x7f020008;
-        public static final int finalprojectvid=0x7f020009;
-        public static final int formationvid=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int icon=0x7f02000c;
-        public static final int info=0x7f02000d;
-        public static final int instagram=0x7f02000e;
-        public static final int play=0x7f02000f;
-        public static final int splashscreen=0x7f020010;
-        public static final int twitter=0x7f020011;
+        public static final int compsciltmbanner=0x7f020005;
+        public static final int compscimath=0x7f020006;
+        public static final int compscimathbanner=0x7f020007;
+        public static final int compscimathpdf=0x7f020008;
+        public static final int compscipdf=0x7f020009;
+        public static final int facebook=0x7f02000a;
+        public static final int finalprojectvid=0x7f02000b;
+        public static final int formationvid=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int icon=0x7f02000e;
+        public static final int info=0x7f02000f;
+        public static final int instagram=0x7f020010;
+        public static final int playcsm=0x7f020011;
+        public static final int playltm=0x7f020012;
+        public static final int splashscreen=0x7f020013;
+        public static final int twitter=0x7f020014;
     }
     public static final class id {
         public static final int GridLayout=0x7f0b0005;
